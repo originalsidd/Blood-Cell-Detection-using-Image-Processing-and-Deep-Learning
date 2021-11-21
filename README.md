@@ -33,7 +33,7 @@ Guidance Professor: Dr. Viswanathan P, School of Computer Science and Engineerin
 
 The group for our Image Processing project consists of -
 
-|S.No. | Name                | Reg. No.  |
+|S.No. | Name                | Reg. No   |
 | -    | ------------------- |:---------:|
 | 1    | Siddharth Pal       | 20BDS0409 |
 | 2    | Vasundhara Polya    | 20BCB0016 |
@@ -51,10 +51,10 @@ The group for our Image Processing project consists of -
 To achieve the project objective we make use of the following tools -
 
 * **Python Language Libraries**
-  * Numpy
+	* Numpy
 	* Pandas
-	* Glob
 	* OpenCV2
+	* Glob
   * Matplotlib
   * Scikit-learn
   * Keras
