@@ -80,7 +80,7 @@ To achieve the project objective we make use of the following tools -
 
 * **For Pre-processing and image enhancement we have used the following techniques and filters**
 
-1. Converting into gray-scale image
+1. Converting into gray-scale image\
 Code used: cv.cvtColor(src, code[, dst[, dstCn]]) ->dst
 
 		src: input image
@@ -92,14 +92,14 @@ Code used: cv.cvtColor(src, code[, dst[, dstCn]]) ->dst
 parameter is 0, the number of the channels is derived
 automatically from src and code.
 --------------------------------
-2. Median filter
+2. Median filter\
 Code used: cv.medianBlur(src, ksize[, dst]) ->dst
 
 		src: input image
 		dst: output image of the same size and type as src
 		ksize: aperture linear size. It must be odd and greater than 1
 --------------------------------
-3. Gaussian filter
+3. Gaussian filter\
 Code used: cv.GaussianBlur(src, ksize, sigmaX[, dst[, sigmaY[,
 borderType]]]) ->dst
 
@@ -110,9 +110,9 @@ borderType]]]) ->dst
 		sigmaY: kernel standard deviation in Y
 		borderType: pixel extrapolation method
 ---------------------------------
-4. Histogram equalization
-
+4. Histogram equalization\
 		Code used: cv.equalizeHist(src[, dst]) ->dst
+
 		src: input image
 		dst: output image of the same size and type as src
 ---------------------------------
@@ -166,7 +166,7 @@ apertureSize[, L2gradient]]]) ->edges
 		L2gradient: flag whether to use the more accurate L2 norm, or 
 		stick with L1, to calculate image gradient magnitude
 ------------------------------------
-2. Closing
+2. Closing\
 Code used:cv.morphologyEx(src, op, kernel[, dst[, anchor[,
 iterations[, borderType[, borderValue]]]]]) ->dst
 
@@ -180,7 +180,7 @@ iterations[, borderType[, borderValue]]]]]) ->dst
 		borderType: pixel extrapolation method
 		borderValue : border value in case of a constant border
 -----------------------------------------
-3. Dilation
+3. Dilation\
 Code used: cv.dilate(src, kernel[, dst[, anchor[, iterations[,
 borderType[, borderValue]]]]]) ->dst
 
@@ -193,7 +193,7 @@ borderType[, borderValue]]]]]) ->dst
 		borderType: pixel extrapolation method
 		borderValue : border value in case of a constant border
 -------------------------------------------
-4. Adaptive Thresholding
+4. Adaptive Thresholding\
 Codes Used:
 cv.adaptiveThreshold(src, maxValue, adaptiveMethod,
 thresholdType, blockSize, C[, dst]) ->dst
@@ -208,7 +208,7 @@ thresholdType, blockSize, C[, dst]) ->dst
 		thresholdType: Thresholding type used. In this project,
 		THRESH_BINARY and THRESH_OTSU have been used
 ------------------------------------------
-5. Hough Transform for circle detection
+5. Hough Transform for circle detection\
 Code Used: cv.HoughCircles(image, method, dp, minDist[, circles[,
 param1[, param2[, minRadius[, maxRadius]]]]]) ->circles
 
