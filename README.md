@@ -132,7 +132,6 @@ Codes used:
 ---------------------------------
 6. Contrast stretching\
 Code used: 
-
 	class numpy.vectorize(pyfunc, otypes=None,
 doc=None, excluded=None, cache=False,
 signature=None)->vectorized
