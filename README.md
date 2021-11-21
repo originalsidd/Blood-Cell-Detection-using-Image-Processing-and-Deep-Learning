@@ -33,8 +33,8 @@ Guidance Professor: Dr. Viswanathan P, School of Computer Science and Engineerin
 
 The group for our Image Processing project consists of -
 
-|S.No. | Name  | ID Number |
-|:----:|:-------------------:|:---------:|
+|S.No. | Name                | Reg. No.  |
+| -    | ------------------- |:---------:|
 | 1    | Siddharth Pal       | 20BDS0409 |
 | 2    | Vasundhara Polya    | 20BCB0016 |
 | 3    | Vasu Garg           | 20BCE0451 |
